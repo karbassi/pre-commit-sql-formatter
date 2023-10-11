@@ -4,3 +4,4 @@
     entry: sql-formatter --config=.sqlformatrc -r
     language: node
     types: [sql]
+    additional_dependencies: ["sql-formatter@13.0.0"]
