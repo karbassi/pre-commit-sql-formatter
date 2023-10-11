@@ -1,7 +1,7 @@
 -   id: sql-formatter
     name: sql-formatter
     description: Reformat SQL files with sql-formatter.
-    entry: sql-formatter --config=.sql-formatter.json
+    entry: ./run.sh
     require_serial: true
     language: node
     types: [sql]
