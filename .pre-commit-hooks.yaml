@@ -2,6 +2,7 @@
     name: sql-formatter
     description: Reformat SQL files with sql-formatter.
     entry: sql-formatter --config=.sql-formatter.json
+    require_serial: true
     language: node
     types: [sql]
     additional_dependencies: ["sql-formatter@13.0.0"]
