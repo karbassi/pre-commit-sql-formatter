@@ -1,0 +1,9 @@
+{
+  "name": "pre-commit-sql-formatter",
+  "version": "1.0.0",
+  "author": "Ali Karbassi <ali@karbassi.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sql-formatter": "^13.0.0"
+  }
+}
