@@ -1,7 +1,8 @@
 -   id: sql-formatter
     name: sql-formatter
     description: Reformat SQL files with sql-formatter.
-    entry: sql-formatter --config=.sqlformatrc -r
+    entry: sql-formatter --config=.sql-formatter.json
     language: node
     types: [sql]
     additional_dependencies: ["sql-formatter@13.0.0"]
+    verbose: true
